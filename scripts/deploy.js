@@ -3,8 +3,6 @@ const main = async () => {
   const transactions = await Transactions.deploy();
   await transactions.deployed();
 
-  await greeter.deployed();
-
   console.log("Transactions deployed to:", transactions.address);
 };
 
